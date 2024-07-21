@@ -164,7 +164,7 @@ a.webButton{ padding: 10px;text-decoration: none;}
 }
 
 .team .column {
-    text-align: center;
+    
     color: #fff;
     width:25%;
 }
@@ -176,6 +176,7 @@ a.webButton{ padding: 10px;text-decoration: none;}
 .team .column .col-content {
     padding:30px 10px;
     background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
     
 }
 .team .column img {
@@ -195,4 +196,59 @@ a.webButton{ padding: 10px;text-decoration: none;}
 .team .column button {
     width: 80%;
 
+}
+
+
+
+
+.gridblk {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: calc(100% - 200px);
+    margin-top: 200px;
+    padding: 20px;
+
+
+    
+}
+
+.gridblk .column01 {    
+    width: 45%;
+    color: #fff; 
+}
+.gridblk .column02 {
+    color: #fff;
+    width:75%;
+}
+.gridblk .column02 form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    
+}
+.gridblk .column02 form label {
+    font-size: 16px;
+}
+
+.gridblk .column02 form input, .gridblk .column02 form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-bottom:10px;
+
+}
+
+.gridblk .column01 h3.coltitle {
+    font-size:4em;
+}
+
+.gridblk .column02 .col-content {
+    padding:30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
 }
