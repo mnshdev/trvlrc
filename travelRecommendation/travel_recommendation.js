@@ -2,7 +2,7 @@ const searchBox = document.querySelector('#searchBox');
 const searchResult = document.querySelector('#searchResult');
 document.querySelector('#clearSearchBtn').addEventListener('click', (e) => {
     e.preventDefault();
-
+    searchResult.innerHTML = '';
     searchBox.value='';
 });
 
